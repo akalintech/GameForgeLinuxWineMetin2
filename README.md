@@ -36,6 +36,11 @@ sudo apt install wine winetricks
 ```bash
 winetricks corefonts vcrun6
 ```
+### 'winecfg' AYARLAMA
+- [ ] terminali aç
+- [ ] `winecfg` yaz enter
+- [ ] `Libraries` e gel
+- [ ] `Existing overrides:` bölümünde `d3d11 (native, builtin)` ve `dxgi (native, builtin)` ekle
 
 Wine kurulumunu tamamladıktan sonra, indirdiğiniz `GameforgeInstaller.exe` dosyasını çalıştırın:
 
